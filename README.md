@@ -61,7 +61,7 @@ I welcome everyone to continue optimizing my project. If you want to optimize th
 
 ## Overall system architecture
 
-![](./assets/structure.png)
+![](./assets/structure-english.png)
 
 ## Project implementation effect
 
@@ -115,7 +115,7 @@ The most important thing is to add serialization and deserialization methods to 
 
 as the picture shows.
 
-![](./assets/structure.png)
+![](./assets/structure-english.png)
 
 ### Member variables of threadControl
 
