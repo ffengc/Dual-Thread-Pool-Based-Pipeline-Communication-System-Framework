@@ -41,7 +41,7 @@ You can directly view the documentation of the calling method.
 
 This project implements a pipeline communication system framework based on dual thread pools from scratch, which is essentially communication between processes.
 
-**具体实现如下：**
+**The specific implementation is as follows：**
 
 - For communication between the client and the server, the client randomly generates data, three producer threads (the number can be set through parameters), and one pipeline thread. After the producer thread produces the data, it pushes it to the client's buffer, waits for the pipeline thread to obtain it, and pushes it to the pipeline. The client data is sent to the server process through the pipeline. The server also has three (the number can be set by parameters) consumer threads, one pipeline thread. After the pipeline thread receives the data in the pipeline, it pushes it to the buffer maintained by the server. Distributed to consumer threads for consumption.
 - Production and consumption proceed according to the law of negative exponential, and the parameter lambda is specified through the command line parameters of the two processes.
