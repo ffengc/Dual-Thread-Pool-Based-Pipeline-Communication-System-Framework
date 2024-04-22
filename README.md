@@ -96,7 +96,7 @@ Running the server or client requires passing the lambda parameter.
 
 ### Experiments and analysis of different lambda parameter combinations
 
-- **[diff_lambda_test-CN.md](./docs/diff_lambda_test.md)**
+- **[diff_lambda_test.md](./docs/diff_lambda_test.md)**
 
 
 ## Detailed design of threadControl object

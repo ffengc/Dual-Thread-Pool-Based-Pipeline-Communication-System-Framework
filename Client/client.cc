@@ -1,7 +1,7 @@
 
 //============================================================================
 // Name        : client.cc
-// Author      : 俞沣城
+// Author      : Fengcheng Yu
 // Date        : 2024.4.10
 // Description : 本项目中client进程client.cc编写
 //                  client.cc中需要提供tc对象运行时的worker方法和connector方法
